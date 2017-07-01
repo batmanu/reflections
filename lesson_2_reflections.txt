@@ -5,3 +5,23 @@ it starts tracking all the files.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area temporarily saves your file for you and remind you which file had changes in it. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+seeing if there are only one + and - when i call git diff --staged
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ experimenting code.
+
+ How do the diagrams help you visualize the branch structure?
+
+ trace to the origin
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ result is that we added coins feature to the game. we represent it in the diagram the way we do because we didn't know if it would work at first.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ pro is that i don't have to go through code again, con is that sometimes the changes i want to make might not be the changes git thinks.
